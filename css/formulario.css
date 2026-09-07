@@ -1,0 +1,32 @@
+*{
+    background-color: lightblue;
+}
+
+h2 p {
+    color: red;
+}
+
+section h2{
+    color:blueviolet ;
+}
+
+article p{
+    color: green;
+}
+
+h3 ~ form{
+    color:salmon;
+}
+
+span + input{
+    color: antiquewhite;
+}
+
+/*
+a:hover{
+    color: blue;
+}*/
+
+a::before{
+    content: "\01F525";
+}

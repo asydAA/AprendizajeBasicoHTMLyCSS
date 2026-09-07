@@ -1,0 +1,25 @@
+p{
+    margin-bottom: 30px;
+}
+
+.rojo{
+    color: red;
+}
+
+#nombreUnico{
+    background-color: yellow;
+}
+
+.contenedor{
+    border: 2px solid blue;
+}
+
+.contenedor p{
+    color: blue;
+    font-weight:bold;
+}
+
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}

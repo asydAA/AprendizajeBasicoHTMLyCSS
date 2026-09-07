@@ -1,0 +1,35 @@
+*{
+    background-color: lightskyblue;
+    box-sizing: border-box;
+}
+
+#ejemplo{
+    color: brown;
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    padding: 15px 30px;
+    border: 10px solid darkblue;
+    margin: 15px;
+}
+
+#caja{
+    color: brown;
+    background-color: orange;
+    width: auto;
+    height: 150px;
+    padding: 15px 30px;
+    border: 10px solid darkblue;
+    margin: 15px;
+    font-size: 2rem;
+
+}
+
+div{
+    border: 1px solid brown;
+    margin: 10px;
+}
+
+.box-px{
+    width: 100px;
+}

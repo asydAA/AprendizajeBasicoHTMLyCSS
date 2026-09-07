@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="" id="mensaje "cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <h2>OTRO FORMULARIO</h2>
+    
+    <form action="/procesar" method="POST">
+        <input type="text" name="usuario" id="usuario">
+        <input type="submit" id="btnGuardar" name="accion" value="guardar">
+        <input type="submit" id="btnEliminar" name="accion" value="eliminar">
+    </form>
+    <section>
+        <h2>Formulario de Youtube del canal "Tutor Web Dev"
+            <p>Se creará 14 etiquetas y tambien el tema SELECTORES/COMBINADOR</p>
+        </h2>        
+        <article>
+            <h3>Input</h3>
+            <p>Creando casillas de un formulario</p>
+            <form action="">
+                <label for="nombre">
+                    <span>Nombre de usuario:</span>    
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese usuario" required>
+                </label>
+                <label for="correo">
+                    <span>Correo electronico:</span>    
+                    <input type="email" id="correo" name="correo" autocomplete="email" required>
+                </label>
+                <label for="origen">
+                    <span>Ciudad de Origen:</span>
+                    <input type="text" name="origen" list="origen">
+                    <datalist id="origen">
+                        <option value="Madrid">Madrid</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Santiago">Santiago</option>
+                    </datalist>
+                </label>
+                <label for="destinos">
+                    <span>Ciudad de Destino:</span>
+                    <select name="destinos" id="destinos">
+                        <option value="Madrid">Madrid</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Santiago">Santiago</option>
+                    </select>
+                </label>
+                <label for="ida">
+                    <span>Fecha y hora de vuelo de ida:</span>
+                    <input type="datetime-local" id="ida" name="ida" required>
+                </label>
+                <label for="regreso">
+                    <span>Fecha de regreso:</span>
+                    <input type="date" id="regreso" name="regreso" required>
+                </label>
+                <label for="hora">
+                    <span>Hora de regreso:</span>
+                    <input type="time" id="hora" name="hora" required>
+                </label>
+                <input type="submit" value="Enviar datos en input">
+                <button type="submit">
+                    Enviar datos en button
+                </button>
+            </form>
+            <p>HASTA ACÁ ES EL LÍMITE DE LAS ETIQUETAS</p>
+
+        </article>
+    </section>
+    <section>
+        <h2>LISTAS DESORDENADAS Y ORDENADAS</h2>
+        <ul type="circle">
+            <li><a href="#">1 parte</a></li>
+            <li><a href="#">2 parte</a></li>
+            <li><a href="#">3 parte</a></li>
+            <li><a href="#">4 parte</a></li>
+            <li><a href="#">5 parte</a></li>
+        </ul>
+        <ul type="square" >
+            <li> <a href="#">Avanza 1</a> </li>
+            <li> <a href="#">Avanza 2</a> </li>
+            <li> <a href="#">Avanza 3</a> </li>
+        </ul>
+    </section>
+</body>
+</html>

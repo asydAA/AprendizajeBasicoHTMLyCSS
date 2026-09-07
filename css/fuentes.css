@@ -1,0 +1,86 @@
+.serif{
+    font-family: serif;
+    font-size: 20px;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.monospace{
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.google-title {
+  font-family: "Caacupe One", sans-serif;
+}
+
+.google-text {
+  font-family: "Betania Patmos", sans-serif;
+}
+
+/*Controlar lineas*/
+.normal{
+    font-size: 2rem;
+}
+
+.light{
+    font-weight: 300;
+}
+/*Podemos usar de 700 a 900 bold o bolder*/
+.bold {
+   font-weight: 700;
+}
+
+.compact{
+    line-height: 1;
+}
+.spaced {
+    letter-spacing: 1.5px; /* agrega 2 píxeles de espacio extra entre letras */
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*Controlar TEXTOS*/
+.left{
+    text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: red;
+}
+
+.indent {
+  text-indent: 2rem;
+}
