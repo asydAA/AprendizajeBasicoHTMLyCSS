@@ -1,0 +1,45 @@
+div,p {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    min-width: 100px;
+    text-align: center;
+}
+/* -----! SHADOW-SIMPLE !----
+    Esta atributo genera una sombra a nuestros contenedores del color que estemos buscando.
+    Para ello esta función recibe 4 atributos los cuales:
+    Primer Atributo: Recibe el desplasamiento a la derecha de la sombra.
+    Segundo Atributo. Recibe el desplasamiento hacia abajo de la sombra.
+    Tercer Atributo: Mientras alto sea el nivel del tercer atributo la sombra se va a empezar a diluirse lo cual va a ser que la sombra "se vea mas real" mientras mas alto sea el nivel de px la sombra se va a ver mas real.
+    Cuarto Atributo: Este cuarto atributo define que tan expandido va a estar nuestro sombra en el contenedor.
+    Quinto Atributo ¡Color!: Define el color el cual queremos que sea nuestra sombra atravez de los anteriores atributos. */
+
+.shadow-simple {
+    box-shadow: 2px /* Desplasamiento a la derecha */ 2px /* desplasamiento hacia abajo */ 3px /*Que tan diluido va a estar la sombra*/  3px /*Que tan expandido va a estar la sombra*/   #FA0000  /* Color cual va a ser la sombra */;
+}
+
+/* !--- INSET !----*/
+/* Ahora ¿Como agregamos sombra a nuestros textos internos? 
+    Para ello podemos agregar una propiedad al inicio llamada "INSET" para que el espacio que obtenga sombra sea el interior del contenedor. Luego utilizamos nuestros 5 atributos para realizar el estilo de la sombra incluyendo como ultimo su respectivo color. */
+.shadow-inset {
+    box-shadow: inset /*Esta propiedad indica que la sombra se va a realizar en el interior del contenedor*/ 0px 0px 10px  3px #FA0000;
+}
+
+/* !---- TEXT-SHADOW---! 
+    Esta función solo agrega sombra a los textos seleccionados. manteniendo igualmente los atributos que podemos utilizar del "box-shadow" para modificar como queremos que se vea la sombra. Solo con la esección que en sus atributos no acepta el cuarto atributo. ¿Que tan queremos que te expandido nuestra sombra? Por lo demás acepta.
+    El desplasamiento a la derecha, el desplasamiento hacia abajo, Que tan diluido va a estar la sombra y nuestro querido color de nuestra sombra ¡escelente! */
+.text-shadow {
+    text-shadow: 2px 2px 5px #9d0707;
+}
+
+/* !---- MEJORAS PARA NUESTRAS TARJETAS !---- 
+    Aquí es donde nosotros podemos empezar a jugar con las distintas funciones como lo pueden ser los border para dar estilos a nuestros contenedores a nuestro gusto para que nuestro proyecto se vea visualmente como nosotros queremos. En el ejemplo del profesor logramos realizar un circulo gracias a la propiedad de border-radius al "50%" con un combo de un widht un height de 100px. Ademas de ellos si aumentamos la propiedad de box-shadow nuestro contenedor se puede ver mejor, */
+/* !----¿ Donde puedo aplicar un circulo en mis contenedores ? !---- 
+    Si nuestro contenedor es circulo podemos realizar una imagen de perfil totalmente circular para mi pagina web ¡perfecto!. Es importante aprender a utilizar estas propiedades para realizar contenedores totalmente espectaculares */
+    .radius-small {
+    border: 2px solid #9d0707;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}

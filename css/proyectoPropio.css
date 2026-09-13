@@ -65,7 +65,7 @@ p {
      =========================================== */
 .nav {
   text-align: center;
-  background-color: #627c80;
+
 }
 
 .nav__item {
@@ -73,6 +73,8 @@ p {
   margin: 0 16px;
   font-family: monospace;
   font-size: 20px;
+  border-radius: 15px;
+  background-color: #627c80;
 }
 
 .nav__link {
@@ -88,7 +90,7 @@ p {
 }
 
 .nav__link--active {
-  color: #2563eb;
+
   font-weight: bold;
 }
 
@@ -131,9 +133,11 @@ ul {
 .hero {
   padding: 64px 0;
   text-align: center;
-  background-color: #627c80; /*#01080f; */
+  /*background-color: #627c80; */
   margin-bottom: 48px;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
+  /*background: linear-gradient(to bottom right, #0b0c0c, #627c80);*/
+  background: radial-gradient(circle, #0b0c0c, #627c80);
 }
 
 .hero__container {
@@ -212,6 +216,7 @@ ul {
   background-color: #2563eb;
   color: #ffffff;
   border-color: #f3f4f5;
+  border-radius: 15px;
 }
 
 .button--primary:hover {
@@ -223,6 +228,7 @@ ul {
   background-color: #2563eb;
   color: #ffffff;
   border-color: #f3f4f5;
+  border-radius: 15px;
 }
 
 .button--secondary:hover {
