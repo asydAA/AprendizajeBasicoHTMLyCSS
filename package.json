@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/asydAA/AprendizajeBasicoHTMLyCSS/issues"
   },
-  "homepage": "https://github.com/asydAA/AprendizajeBasicoHTMLyCSS#readme"
+  "homepage": "https://github.com/asydAA/AprendizajeBasicoHTMLyCSS#readme",
+  "devDependencies": {
+    "vitest": "^5.0.1"
+  }
 }
