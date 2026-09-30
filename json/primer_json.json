@@ -1,0 +1,21 @@
+{
+    "nombre": "alex",
+    "apellido":"chavez",
+    "edad":40,
+    "experiencia":[
+        {
+            "empresa": "Canvia",
+            "antiguedad":3
+        },
+        {
+            "empresa": "Metrica",
+            "antiguedad":2
+        }
+    ],
+    "direccion":{
+        "calle":"Miroquesada",
+        "MZ": "N",
+        "Lote": 11
+
+    }
+}
