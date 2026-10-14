@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo Errores</title>
+</head>
+<body>
+    <h1>MANEJO DE ERRORES EN JS!!!</h1>
+
+    <script>
+        let noExiste = "Hablemos";
+
+        try {
+            console.log("En el Try se agrega el código a evaluar");
+            noExiste;
+            console.log("Segundo mensaje en el try");
+        } catch (error) {
+            console.log("Catch, captura cualquier error");
+            console.log(error);
+        }finally{
+            console.log("El bloque finally se ejecutará siempre al final de un bloque try-catch");
+        }
+    </script>
+</body>
+</html>
